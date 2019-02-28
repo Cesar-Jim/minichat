@@ -1,0 +1,21 @@
+{
+  "name": "minichat",
+  "version": "1.0.0",
+  "description": "Very simple chat app",
+  "main": "app.js",
+  "scripts": {
+    "test": "set NODE_ENV=test&& jasmine",
+    "start": "nodemon app"
+  },
+  "author": "Cesar Jimenez",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.3.1"
+  }
+}
